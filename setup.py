@@ -9,13 +9,12 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-essential-templatetags',
-    version='0.1.6',
+    version='0.1.7',
     packages=find_packages(),
     include_package_data=True,
     license='GNU GPLv3 License',
     description='Essential templatetags for Django.',
     long_description=README,
-    url='https://www.koralhassan.com/',
     author='Koral Hassan',
     author_email='contact@koralhassan.com',
     classifiers=[
